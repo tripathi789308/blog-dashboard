@@ -13,8 +13,8 @@ This project is a simple blog dashboard built using Next.js, Material-UI (MUI), 
 ## Features
 
 *   **List Posts:** Displays a list of blog posts on the homepage (`/`).
-*   **View Post:** Displays the full details of a single post on a dynamic route (`/posts/[id]`).
-*   **Add Post:** Provides a form to add a new blog post (`/posts/new`).
+*   **View Post:** Displays the full details of a single post on a dynamic route (`/post/[id]`).
+*   **Add Post:** Provides a form to add a new blog post (`/post/new`).
 *   **Responsive Design:** Uses MUI's Grid system for basic responsiveness.
 *   **Theming:** Basic MUI theme customization (colors).
 *   **API Handling:** Uses RTK Query for data fetching, caching, loading, and error states. Automatic refetching of the post list after adding a new post via tag invalidation.
@@ -28,14 +28,12 @@ This project is a simple blog dashboard built using Next.js, Material-UI (MUI), 
 
 1.  Clone the repository:
     ```bash
-    git clone <your-repo-url>
+    git clone https://github.com/tripathi789308/blog-dashboard.git
     cd blog-dashboard
     ```
 2.  Install dependencies:
     ```bash
     npm install
-    # or
-    # yarn install
     ```
 
 ### Running the Development Server
